@@ -19,7 +19,7 @@ Um Market Place feito com ReactJs, o foco foi o estudo das rotas utilizando o re
 <hr>
 
 ### Está online? 📡
-SIM! Basta [clicar aqui](-------) para visualizar o site que está hospedado nos servidores da Vercel.
+SIM! Basta [clicar aqui](https://ecommerce-react-lilac-three.vercel.app/) para visualizar o site que está hospedado nos servidores da Vercel.
 <hr>
 
 by Murillo Couto<br>
