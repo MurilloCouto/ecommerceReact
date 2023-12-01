@@ -1,0 +1,34 @@
+@use "../../sass/variables" as *;
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    &__lupa {
+        text-align: left;
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 0.5rem;
+        margin-right: 72%;
+    }
+
+    &__person {
+        margin-left: 2rem;
+    }
+
+    &__heart {
+        margin-left: 1rem;
+    }
+
+    input {
+        width: 70%;
+        height: 2.5rem;
+        border: 1px solid #58585899;
+        border-radius: 10px;
+        padding-left: 4rem;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}

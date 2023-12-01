@@ -1,0 +1,8 @@
+@use "../../sass/variables" as *;
+
+.home__products {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 25rem;
+}

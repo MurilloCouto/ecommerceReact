@@ -1,0 +1,40 @@
+@use "../../sass/variables" as *;
+
+.headerMenu {
+    background-color: $header-background;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+        &__logo {
+            width: 6rem;
+            height: 6rem;
+            margin-left: 1rem;
+            margin-top: 0.5rem;
+            padding: 1rem;
+        }
+
+        &__carrinho {
+            padding-left: 1rem;
+        }
+
+        p {
+            margin-top: 2.5rem;
+            color: $black;
+            font-size: 22px;
+            font-weight: 400;
+        }
+
+        .carrinho {
+            margin-top: 1.8rem;
+            color: $black;
+            font-size: 22px;
+            font-weight: 400;
+            margin-left: 15rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+}

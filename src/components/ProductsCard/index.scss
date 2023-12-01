@@ -1,0 +1,32 @@
+@use "../../sass/variables" as *;
+
+.home__card {
+    color: #252423;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+    img {
+        box-shadow: 3px 3px 3px gray;
+        border-radius: 10px;
+    }
+
+    p {
+        margin: 1rem 0;
+    }
+
+    button {
+        background-color: $contrast-color;
+        border: 0;
+        border-radius: 5px;
+        width: 10rem;
+        height: 1.5rem;
+        color: $white;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,92 @@
+@use "../../sass/variables" as *;
+
+.productDetail {
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    color: #040404;
+    padding-bottom: 5rem;
+
+    &__description {
+        border-bottom: 2px solid rgba(119, 119, 119, 0.556);
+    }
+
+    &__size {
+        padding-bottom: 10rem;
+    }
+
+    &__cube-colors {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+    }
+
+    &__cube-size {
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        
+        p {
+            margin-left: 0.9rem;
+        }
+    }
+
+    img {
+            box-shadow: 3px 3px 3px gray;
+            border-radius: 10px;
+            margin-left: 1rem;
+        }
+
+    p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-top: 4rem;
+    }
+
+    h5 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 20px;
+        border-bottom: 2px solid rgba(119, 119, 119, 0.556);
+        padding-bottom: 2rem;
+    }
+
+    h6 {
+        margin-top: 1rem;
+        font-size: large;
+        font-weight: 400;
+        padding-bottom: 2rem;
+    }
+
+    &__pay {
+        text-align: center;
+        width: 100%;
+        margin-left: 15rem;
+        width: 40%;
+
+        h3{
+            font-size: 30px;
+            font-family: montserrat;
+            font-weight: 600;
+            line-height: 20px;
+            text-align: left;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            text-align: left;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-left: 1.2rem;
+        }
+    }
+}
