@@ -2,7 +2,7 @@ export const PRODUCTS_MOCK = [
     {
       id: 1,
       imgPath: "product-1.png",
-      imgPathDetail: "../../../public/product-1.png",
+      imgPathDetail: "../public/product-1.png",
       title: "Cropped manga curta branco | by Murillo Couto",
       price: "R$ 139,90",
       colors: ["black"],
@@ -11,7 +11,7 @@ export const PRODUCTS_MOCK = [
     {
       id: 2,
       imgPath: "product-2.png",
-      imgPathDetail: "../../../public/product-2.png",
+      imgPathDetail: "../public/product-2.png",
       title: "Blazer Preto | by Murillo Couto",
       price: "R$ 109,90",
       colors: ["black", "red"],
@@ -20,7 +20,7 @@ export const PRODUCTS_MOCK = [
     {
       id: 3,
       imgPath: "product-3.png",
-      imgPathDetail: "../../../public/product-3.png",
+      imgPathDetail: "../public/product-3.png",
       title: "Blazer marrom | by Murillo Couto",
       price: "R$ 159,90",
       colors: ["red", "green"],
@@ -29,7 +29,7 @@ export const PRODUCTS_MOCK = [
     {
       id: 4,
       imgPath: "product-4.png",
-      imgPathDetail: "../../../public/product-4.png",
+      imgPathDetail: "../public/product-4.png",
       title: "Cropped manga preta |  by Murillo Couto",
       price: "R$ 189,90",
       colors: ["black", "white", "blue"],
@@ -38,7 +38,7 @@ export const PRODUCTS_MOCK = [
     {
       id: 5,
       imgPath: "product-5.png",
-      imgPathDetail: "../../../public/product-5.png",
+      imgPathDetail: "../public/product-5.png",
       title: "Camisa bege masculino | by Murillo Couto",
       price: "R$ 79,90",
       colors: ["white", "black"],
@@ -47,7 +47,7 @@ export const PRODUCTS_MOCK = [
     {
       id: 6,
       imgPath: "product-6.png",
-      imgPathDetail: "../../../public/product-6.png",
+      imgPathDetail: "../public/product-6.png",
       title: "Camisa manga longa bege |  by Murillo Couto",
       price: "R$ 119,90",
       colors: ["black"],
