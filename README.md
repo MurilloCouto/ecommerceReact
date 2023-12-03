@@ -1,26 +1,61 @@
-<div align="center">
-	<a href="(https://github.com/MurilloCouto/ecommerceReact)" target="_blank">
-		<img src="homeEcommerce.png" alt="IntroImage" width="50%"/>
-	</a>
-</div>
 
-<div align="center">
-	<h1>Ecommerce Vestuário</h1>
-</div>
+# Ecommerce using ReactJS
 
-### O que é? 🤔
-Um Market Place feito com ReactJs, o foco foi o estudo das rotas utilizando o react router dom e a utilização de props para carregar componentes de forma dinâmica, puxando os dados de um mock. O site não tem qualquer tipo de verificação para fazer o login nem mesmo funcionalidades além de selecionar a peça de roupa e encaminhar para o pagamento.
-<hr>
+A Market Place made with ReactJs, the focus was on studying routes using the react router dom and the use of props to load components dynamically, pulling data from a mock. The site does not have any type of verification for logging in or even features other than selecting the item of clothing and forwarding it to payment.
 
-### Quais tecnologias foram usadas? 💻
-- HTML5
-- CSS3 (SASS)
-- Javascript (ReactJs)
-<hr>
 
-### Está online? 📡
-SIM! Basta [clicar aqui](https://ecommerce-react-lilac-three.vercel.app/) para visualizar o site que está hospedado nos servidores da Vercel.
-<hr>
+## Screenshots
 
-by Murillo Couto<br>
-[GitHub](https://github.com/MurilloCouto)
+![App Screenshot](https://raw.githubusercontent.com/MurilloCouto/ecommerceReact/main/homeEcommerce.png)
+
+
+## Tech Stack
+
+- ReactJS
+- SASS
+- HTML
+
+## Lessons Learned
+
+In this project i could put in practice my knowledge about ReactJS components and props, understand better how the React Router, SASS and Hooks works.
+
+
+## Deployment
+
+The project is online on Vercel servers
+```bash
+  https://ecommerce-react-lilac-three.vercel.app/
+```
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/MurilloCouto/ecommerceReact.git
+```
+
+Go to the project directory
+
+```bash
+  cd ecommerceReact
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Authors
+
+- [@MurilloCouto](https://www.github.com/MurilloCouto)
+
