@@ -5,7 +5,7 @@ const ProductDetail = ({ data }) => {
   return (
     <section className="productDetail">
       <div className="productDetail__description">
-        <img src={`https://ecommerce-react-lilac-three.vercel.app/product-{data.id}.png`} alt={data.title} />
+        <img src={`https://ecommerce-react-lilac-three.vercel.app/product-${data.id}.png`} alt={data.title} />
         <p>{data.title}</p>
         <h3>Descrição</h3>
         <h6>{data.title}</h6>
